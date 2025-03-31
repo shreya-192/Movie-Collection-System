@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #6e3832;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+h2 {
+    color: #d43f2f;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d43f2f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    width: 80%;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: #d43f2f;
+}
+
+div {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+#genreOutput, #highestRatedOutput, #titlesOutput, #afterYearOutput {
+    min-height: 50px;
+}
+
+.box {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
